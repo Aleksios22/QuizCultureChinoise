@@ -1,0 +1,571 @@
+@font-face {
+  font-family: "Eastern";
+  src: url("../medias/Eastern\ Brush.ttf");
+}
+
+@font-face {
+  font-family: "fontshui";
+  src: url("../medias/FONTSHUI.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/************************    CSS - Page D'acceuil   ****************************/
+
+/*-------------------------------------------------------------------------------------------- Mobile First --------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  background-color: lightgrey;
+}
+
+.global {
+  margin: 0 auto;
+  width: 1270px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 130px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#h1acc {
+  background-color: red;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/million-people.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+  color: white;
+  font-family: "Eastern";
+  font-size: 100px;
+}
+
+header {
+  background-color: white;
+}
+
+#section1 {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.stylebutton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.stylebutton:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.stylebutton:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#pageacc {
+  display: block;
+}
+
+/************************    CSS - Difficulté   ****************************/
+#pageniveau header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/monk.jpg);
+  background-size: 1270px 460px;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "fontshui";
+}
+
+#h13 {
+  font-size: 105px;
+  font-family: "fontshui";
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/Jackie_2.jpg);
+  background-size: 1270px 480px;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+
+#h14 {
+  font-size: 105px;
+  font-family: "fontshui";
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/Jackie.jpg);
+  background-size: 1270px 480px;
+  background-repeat: no-repeat;
+  padding-bottom: 135px;
+}
+
+#button2 {
+  margin-bottom: 35px;
+}
+
+#button3 {
+  padding-left: 25px;
+  padding-right: 23px;
+}
+
+#section2 {
+  padding-top: 105px;
+  padding-bottom: 75px;
+  background-color: black;
+}
+
+#pageniveau {
+  display: none;
+}
+
+#pagequestionExpert {
+  display: none;
+}
+
+#pagequestionNovice {
+  display: none;
+}
+
+/************************    CSS - Question 1   ****************************/
+
+#h1question {
+  font-size: 45px;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/lanternes.jpg);
+  background-size: 1270px 600px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: "fontshui";
+}
+
+#section3 {
+  position: absolute;
+  height: 482px;
+  width: 1270px;
+  background-color: black;
+  padding-top: 65px;
+}
+
+#section4 {
+  position: absolute;
+  height: 392px;
+  width: 1270px;
+  background-color: black;
+}
+
+#section5 {
+  position: absolute;
+  height: 377px;
+  width: 1270px;
+  background-color: black;
+}
+
+.pDuQestion {
+  color: white;
+  font-size: 25px;
+  display: block;
+}
+
+#buttonabadonner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background-color: yellow;
+  color: white;
+}
+
+#buttonabadonner2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background-color: yellow;
+  color: white;
+}
+
+#buttonsuivant {
+  position: absolute;
+  bottom: 40px;
+  left: 530px;
+}
+
+#buttonindice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  color: white;
+}
+
+#buttonindice2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  color: white;
+}
+
+.button {
+  border: none;
+  background-color: inherit;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button2 {
+  border: none;
+  background-color: inherit;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #585858;
+}
+
+.button2:hover {
+  background-color: #585858;
+}
+
+.rp1 {
+  color: #00ffff;
+  display: block;
+  margin-right: 50px;
+  margin-left: 570px;
+}
+
+.rp2 {
+  color: rgb(225, 0, 255);
+  display: block;
+  margin-left: 570px;
+}
+
+.rp3 {
+  color: lime;
+  display: block;
+  margin-left: 570px;
+}
+
+.rp4 {
+  color: red;
+  display: block;
+  margin-left: 570px;
+}
+.active,
+.button:hover {
+  background-color: #585858;
+}
+
+.active2,
+.button:hover {
+  background-color: #585858;
+}
+
+#buttonabadonner:hover {
+  background-color: #fff01e;
+}
+
+#buttonabadonner:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  color: white;
+}
+
+#pagequestion {
+  display: none;
+}
+
+/************************    CSS - Page Résultat   ****************************/
+
+#presultat {
+  font-size: 50px;
+  padding-top: 105px;
+}
+
+#ppourcentage {
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#ppourcentage2 {
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#pageresultatAbandonne {
+  display: none;
+}
+
+#pageresultatReussi {
+  display: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------- Tablette --------*/
+/*----------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 641px) {
+}
+
+/*------------------------------------------------------------------------------------------------------------- Bureau --------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1008px) {
+  .global {
+    margin: 0 auto;
+    width: 1270px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  #h1acc {
+    background-position: cover;
+    background-size: 100%;
+    font-size: 100px;
+  }
+
+  #section1 {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+
+  .stylebutton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .stylebutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  #pageacc {
+    display: block;
+  }
+
+  /************************    CSS - Difficulté   ****************************/
+  #pageniveau header {
+    background-size: 1270px 460px;
+  }
+
+  #h13 {
+    font-size: 105px;
+
+    background-size: 1270px 480px;
+    padding-bottom: 120px;
+  }
+
+  #h14 {
+    font-size: 105px;
+    background-size: 1270px 480px;
+    padding-bottom: 135px;
+  }
+
+  #button2 {
+    margin-bottom: 35px;
+  }
+
+  #button3 {
+    padding-left: 25px;
+    padding-right: 23px;
+  }
+
+  #section2 {
+    padding-top: 105px;
+    padding-bottom: 75px;
+  }
+
+  /************************    CSS - Question 1   ****************************/
+
+  #h1question {
+    font-size: 45px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-size: 1270px 600px;
+  }
+
+  #section3 {
+    position: absolute;
+    height: 482px;
+    width: 1270px;
+    padding-top: 65px;
+  }
+
+  #section4 {
+    position: absolute;
+    height: 392px;
+    width: 1270px;
+  }
+
+  #section5 {
+    position: absolute;
+    height: 377px;
+    width: 1270px;
+  }
+
+  .pDuQestion {
+    color: white;
+    font-size: 25px;
+    display: block;
+  }
+
+  #buttonabadonner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  #buttonabadonner2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  #buttonsuivant {
+    position: absolute;
+    bottom: 40px;
+    left: 530px;
+  }
+
+  #buttonindice {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #buttonindice2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .button {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    display: inline-block;
+  }
+
+  .button2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    display: inline-block;
+  }
+
+  .rp1 {
+    display: block;
+    margin-right: 50px;
+    margin-left: 570px;
+  }
+
+  .rp2 {
+    display: block;
+    margin-left: 570px;
+  }
+
+  .rp3 {
+    display: block;
+    margin-left: 570px;
+  }
+
+  .rp4 {
+    display: block;
+    margin-left: 570px;
+  }
+
+  #buttonabadonner:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  /************************    CSS - Page Résultat   ****************************/
+
+  #presultat {
+    font-size: 50px;
+    padding-top: 105px;
+  }
+
+  #ppourcentage {
+    padding-bottom: 50px;
+    font-size: 50px;
+  }
+
+  #ppourcentage2 {
+    padding-bottom: 50px;
+    font-size: 50px;
+  }
+}
