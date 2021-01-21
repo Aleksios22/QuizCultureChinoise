@@ -8,6 +8,11 @@
   src: url("../medias/FONTSHUI.TTF");
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../medias/Roboto/Roboto-Medium.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,66 +25,57 @@
 
 body {
   background-color: lightgrey;
+  font-family: Roboto;
+  overflow: hidden;
 }
 
 .global {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
-  width: 1270px;
   text-align: center;
 }
 
-h1 {
-  font-size: 130px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+#headerAcc {
+  display: flex;
+  align-items: center;
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(../images/million-people.jpg);
+  background-size: cover;
 }
 
 #h1acc {
-  background-color: red;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/million-people.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 100%;
   color: white;
   font-family: "Eastern";
-  font-size: 100px;
-}
-
-header {
-  background-color: white;
+  font-size: 2.5rem;
 }
 
 #section1 {
-  background-color: black;
-  padding-top: 50px;
-  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  background-color: white;
 }
 
 .stylebutton {
-  border: 0;
+  font-family: Roboto;
+  border: 1;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0 5%;
   text-align: center;
-  font-size: 30px;
-  color: yellow;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(220, 0, 0, 1);
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
 }
 
 .stylebutton:hover {
   background-color: rgba(255, 0, 0, 1);
+  color: white;
 }
 
 .stylebutton:active {
@@ -92,24 +88,25 @@ header {
 }
 
 /************************    CSS - Difficulté   ****************************/
-#pageniveau header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+#headerNiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/monk.jpg);
-  background-size: 1270px 460px;
+  background-size: cover;
+  background-position-x: 70%;
   background-repeat: no-repeat;
   color: white;
   font-family: "fontshui";
 }
 
-#h13 {
-  font-size: 105px;
+#h12 {
+  font-size: 2.2rem;
   font-family: "fontshui";
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/Jackie_2.jpg);
-  background-size: 1270px 480px;
   background-repeat: no-repeat;
-  padding-bottom: 120px;
 }
 
 #h14 {
@@ -123,19 +120,25 @@ header {
   padding-bottom: 135px;
 }
 
+#section2 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
 #button2 {
-  margin-bottom: 35px;
+  width: 90%;
+  margin-top: 10%;
+  line-height: 2.5;
+  padding: 0 5%;
 }
 
 #button3 {
-  padding-left: 25px;
-  padding-right: 23px;
-}
-
-#section2 {
-  padding-top: 105px;
-  padding-bottom: 75px;
-  background-color: black;
+  margin-bottom: 10%;
+  width: 90%;
 }
 
 #pageniveau {
@@ -152,98 +155,118 @@ header {
 
 /************************    CSS - Question 1   ****************************/
 
-#h1question {
-  font-size: 45px;
-  padding-top: 75px;
-  padding-bottom: 80px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+#headerNov {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/lanternes.jpg);
-  background-size: 1270px 600px;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+}
+
+#h1question {
+  font-size: 2rem;
+  color: white;
   font-family: "fontshui";
 }
 
 #section3 {
-  position: absolute;
-  height: 482px;
-  width: 1270px;
-  background-color: black;
-  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 70vh;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+}
+
+#lesButtonNovice {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#troisOptions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.options {
+  font-size: 1.2em;
+  font-family: Roboto;
+  border: 1;
+  line-height: 1;
+  padding: 5%;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 #section4 {
   position: absolute;
   height: 392px;
   width: 1270px;
-  background-color: black;
+  background-color: white;
 }
 
 #section5 {
   position: absolute;
   height: 377px;
   width: 1270px;
-  background-color: black;
+  background-color: white;
 }
 
 .pDuQestion {
-  color: white;
-  font-size: 25px;
-  display: block;
+  color: black;
+  font-size: 1.2rem;
 }
 
 #buttonabadonner {
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 0;
-  background-color: yellow;
-  color: white;
+  background-color: rgb(233, 233, 233);
+  color: black;
 }
 
 #buttonabadonner2 {
-  position: absolute;
   left: 0;
   top: 0;
   border-radius: 0;
   background-color: yellow;
-  color: white;
+  color: black;
+}
+
+#pIndice {
+  color: black;
+  font-size: 0.7rem;
 }
 
 #buttonsuivant {
-  position: absolute;
   bottom: 40px;
   left: 530px;
 }
 
 #buttonindice {
-  position: absolute;
   top: 0;
   right: 0;
   background-color: yellow;
-  color: white;
+  color: black;
 }
 
 #buttonindice2 {
-  position: absolute;
   top: 0;
   right: 0;
   background-color: yellow;
-  color: white;
+  color: black;
 }
 
 .button {
   border: none;
-  background-color: inherit;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 23px;
+  color: black;
   cursor: pointer;
-  display: inline-block;
 }
 
 .button2 {
@@ -269,28 +292,27 @@ header {
 }
 
 .rp1 {
-  color: #00ffff;
-  display: block;
-  margin-right: 50px;
-  margin-left: 570px;
+  color: black;
+  font-size: 2em;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp2 {
-  color: rgb(225, 0, 255);
-  display: block;
-  margin-left: 570px;
+  color: black;
+  font-size: 2em;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp3 {
-  color: lime;
-  display: block;
-  margin-left: 570px;
+  color: black;
+  font-size: 2em;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp4 {
-  color: red;
-  display: block;
-  margin-left: 570px;
+  color: black;
+  font-size: 2em;
+  padding: 4% 0% 4% 0%;
 }
 .active,
 .button:hover {
@@ -309,10 +331,6 @@ header {
 #buttonabadonner:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
-p {
-  color: white;
 }
 
 #pagequestion {
@@ -466,9 +484,8 @@ p {
   }
 
   .pDuQestion {
-    color: white;
-    font-size: 25px;
-    display: block;
+    color: black;
+    margin: 0;
   }
 
   #buttonabadonner {
@@ -528,23 +545,18 @@ p {
 
   .rp1 {
     display: block;
-    margin-right: 50px;
-    margin-left: 570px;
   }
 
   .rp2 {
     display: block;
-    margin-left: 570px;
   }
 
   .rp3 {
     display: block;
-    margin-left: 570px;
   }
 
   .rp4 {
     display: block;
-    margin-left: 570px;
   }
 
   #buttonabadonner:active {

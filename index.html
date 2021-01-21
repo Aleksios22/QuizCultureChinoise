@@ -8,19 +8,21 @@
         <meta name="description"
               content="La page d'accueil du TP1 en programmation web 1 de Alexis et Haoyang"/>
         <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="./css/uikit.min.css">
+		<link rel="stylesheet" href="./js/uikit.min.js">
 	</head>
 
 	<body>
 			<div class="global" id="pageacc">
 
-				<header>
-					<h1 id="h1acc">QUIZ  SUR  LA  CULTURE  CHINOISE</h1>
+				<header id="headerAcc">
+					<h1 class="uk-animation-fade" id="h1acc">QUIZ  SUR  LA  CULTURE  CHINOISE</h1>
 				</header>
 
 				<section id="section1">		
-					<input
-						class="stylebutton"
+					<input 
+						class="stylebutton uk-animation-scale-up"
 						type="button"
 						value="Commencer">
 						
@@ -29,17 +31,17 @@
 
 			<div class="global" id="pageniveau">
 
-				<header>
+				<header id="headerNiv">
 					<h1 id="h12">Difficulté</h1>
 				</header>
 
 				<section id="section2">		
 					<input  id="button2" 
-							class="stylebutton"
+							class="stylebutton uk-animation-scale-up"
 							type="button"
 							value="Novice"><br>					
 					<input  id="button3" 
-							class="stylebutton"
+							class="stylebutton uk-animation-scale-up"
 							type="button"
 							value="Expert">
 				</section>
@@ -47,46 +49,41 @@
 			   
 			<div class="global" id="pagequestionNovice">
 
-				<header>
+				<header id="headerNov">
 					<h1 id="h1question">Question <span id="spanNumero">1</span> 
 					[<span id="spanNiveau">Niveau</span>]</h1> 
 				</header>
 				
 				<section id="section3">
-					<!-- <img src="../images/drapeau.jpg" width="450" height="250"> -->
-					<input  id="buttonabadonner" 
-							class="stylebutton"
-							type="button"
-							value="Abandonner"><br>
-				<div id="lesButtonNovice">
-					<p class="pDuQestion" id="pQuestionNovice"></p>
-					<p id="pIndice"></p>
-					<!-- <input type="radio" id="reponse1" class="rp1" name="reponse" value="reponsen1"> -->
-					
-						<br>
-						<br>
-						<button class="button rp1 active"></button>
-						<button class="button rp2"></button>
-						<button class="button rp3"></button>
-						<button class="button rp4"></button>
-				</div>
-		
-					<input  id="buttonsuivant" 
-							class="stylebutton"
-							type="button"
-							value="Suivant">
+					<div id="lesButtonNovice">
+						<p class="pDuQestion" id="pQuestionNovice"></p>
+						<p id="pIndice"></p>
+							<button class="button rp1 active"></button>
+							<button class="button rp2"></button>
+							<button class="button rp3"></button>
+							<button class="button rp4"></button>
+					</div>
 
-					<input id="buttonindice"
-						   class="stylebutton"
-						   type="button"
-						   value="Indice">
-	
+					<div id="troisOptions">
+						<input  id="buttonabadonner" 
+								class="options"
+								type="button"
+								value="Abandonner">
+						<input id="buttonindice"
+								class="options"
+								type="button"
+								value="Indice">
+						<input  id="buttonsuivant" 
+								class="options"
+								type="button"
+								value="Suivant">
+					</div>
 				</section>
 			</div>
 
 			<div class="global" id="pagequestionExpert">
 
-				<header>
+				<header id="headerExp">
 					<h1 id="h1question">Question <span id="spanNumero2">1</span> 
 					[<span id="spanNiveau2">Niveau</span>]</h1> 
 				</header>
@@ -148,7 +145,7 @@
 
 			<div class="global" id="pageresultatReussi">
 
-				<header>
+				<header id="headerReussi">
 					<h1 id="h14">Résultat</h1>
 				</header>
 					
