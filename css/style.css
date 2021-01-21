@@ -156,7 +156,7 @@ body {
 /************************    CSS - Question 1   ****************************/
 
 #headerNov {
-  height: 30vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +176,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 70vh;
+  height: 65vh;
   background-color: white;
   color: black;
   justify-content: space-between;
