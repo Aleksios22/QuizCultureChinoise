@@ -108,14 +108,9 @@ body {
 }
 
 #h14 {
-  font-size: 105px;
+  font-size: 6rem;
   font-family: "fontshui";
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/Jackie.jpg);
-  background-size: 1270px 480px;
-  background-repeat: no-repeat;
-  padding-bottom: 135px;
 }
 
 #section2 {
@@ -141,11 +136,18 @@ body {
   display: none;
 }
 
-#pagequestionExpert {
-  display: none;
+#divDuQuestionExpert {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #pagequestionNovice {
+  display: none;
+}
+
+#pagequestionExpert {
   display: none;
 }
 
@@ -158,6 +160,17 @@ body {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../images/lanternes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#headerExp {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/dragon.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -185,7 +198,7 @@ body {
   justify-content: space-around;
 }
 
-#troisOptions {
+.troisOptions {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -210,9 +223,11 @@ body {
 }
 
 #section5 {
-  position: absolute;
-  height: 377px;
-  width: 1270px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: white;
 }
 
@@ -223,33 +238,31 @@ body {
 }
 
 #buttonabadonner {
-  background-color: rgb(233, 233, 233);
-  color: black;
+  background-color: red;
+  color: white;
 }
 
 #buttonabadonner2 {
   left: 0;
   top: 0;
   border-radius: 0;
-  background-color: yellow;
-  color: black;
+  background-color: red;
+  color: white;
 }
 
 #pIndice {
-  color: black;
+  color: white;
   font-size: 0.7rem;
 }
 
 #buttonsuivant {
-  bottom: 40px;
-  left: 530px;
 }
 
 #buttonindice {
   top: 0;
   right: 0;
   background-color: yellow;
-  color: black;
+  color: white;
 }
 
 #buttonindice2 {
@@ -290,25 +303,25 @@ body {
 .rp1 {
   color: black;
   font-size: 3.5em;
-  padding: 5% 0% 5% 0%;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp2 {
   color: black;
   font-size: 3.5em;
-  padding: 5% 0% 5% 0%;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp3 {
   color: black;
   font-size: 3.5em;
-  padding: 5% 0% 5% 0%;
+  padding: 4% 0% 4% 0%;
 }
 
 .rp4 {
   color: black;
   font-size: 3.5em;
-  padding: 5% 0% 5% 0%;
+  padding: 4% 0% 4% 0%;
 }
 .active,
 .button:hover {
@@ -335,19 +348,29 @@ body {
 
 /************************    CSS - Page Résultat   ****************************/
 
+#headerReussi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/Jackie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "fontshui";
+}
+
 #presultat {
-  font-size: 50px;
-  padding-top: 105px;
+  font-size: 5em;
 }
 
 #ppourcentage {
-  padding-bottom: 50px;
-  font-size: 50px;
+  font-size: 5em;
 }
 
 #ppourcentage2 {
-  padding-bottom: 50px;
-  font-size: 50px;
+  font-size: 5em;
 }
 
 #pageresultatAbandonne {
