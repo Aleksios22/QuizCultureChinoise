@@ -18,21 +18,15 @@
   padding: 0;
 }
 
-html {
-	overflow-x: hidden;
-}
-
 /************************    CSS - Page D'acceuil   ****************************/
 
 /*-------------------------------------------------------------------------------------------- Mobile First --------*/
 /*------------------------------------------------------------------------------------------------------------------*/
 
 body {
-  background-color: white;
+  background-color: lightgrey;
   font-family: Roboto;
   overflow: hidden;
-  position: relative
-  overflow-x: hidden;
 }
 
 .global {
@@ -46,7 +40,7 @@ body {
 #headerAcc {
   display: flex;
   align-items: center;
-  height: 70vh;
+  height: 75vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/million-people.jpg);
   background-size: cover;
@@ -65,7 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 25vh;
   background-color: white;
 }
 
@@ -162,7 +156,7 @@ body {
 /************************    CSS - Question 1   ****************************/
 
 #headerNov {
-  height: 25vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,7 +176,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 65vh;
+  height: 70vh;
   background-color: white;
   color: black;
   justify-content: space-between;
@@ -204,7 +198,7 @@ body {
 }
 
 .options {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: Roboto;
   border: 1;
   line-height: 1;
