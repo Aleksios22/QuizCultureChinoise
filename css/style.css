@@ -124,11 +124,9 @@ body {
 
 #button2 {
   width: 90%;
-  margin-top: 10%;
 }
 
 #button3 {
-  margin-bottom: 10%;
   width: 90%;
 }
 
@@ -234,7 +232,7 @@ body {
 .pDuQestion {
   color: black;
   font-size: 3rem;
-  margin: 2% 0% 2% 0%;
+  margin: 0;
 }
 
 #buttonabadonner {
@@ -251,8 +249,13 @@ body {
 }
 
 #pIndice {
-  color: white;
-  font-size: 0.7rem;
+  color: red;
+  font-size: 2em;
+}
+
+#pIndice2 {
+  color: red;
+  font-size: 2em;
 }
 
 #buttonsuivant {
@@ -262,7 +265,7 @@ body {
   top: 0;
   right: 0;
   background-color: yellow;
-  color: white;
+  color: black;
 }
 
 #buttonindice2 {
@@ -287,7 +290,6 @@ body {
   padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 23px;
   cursor: pointer;
   display: inline-block;
 }
@@ -384,219 +386,60 @@ body {
 /*---------------------------------------------------------------------------------------------------------- Tablette --------*/
 /*----------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 641px) {
+  button {
+    padding: 0% 0% 0% 0%;
+    font-size: 0.5em;
+  }
+
+  .rp1 {
+    font-size: 2.5em;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .rp2 {
+    font-size: 2.5em;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .rp3 {
+    font-size: 2.5em;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .rp4 {
+    font-size: 2.5em;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .pDuQestion {
+    color: black;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .options {
+    font-size: 2.5em;
+    font-family: Roboto;
+    border: 1;
+    padding: 3%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  #button2,
+  #button3 {
+    font-size: 4.5em;
+    padding: 3%;
+  }
 }
 
 /*------------------------------------------------------------------------------------------------------------- Bureau --------*/
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1008px) {
-  .global {
-    margin: 0 auto;
-    width: 1270px;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 130px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
-  #h1acc {
-    background-position: cover;
-    background-size: 100%;
-    font-size: 100px;
-  }
-
-  #section1 {
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-
-  .stylebutton {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-image: linear-gradient(
-      to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0)
-    );
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  }
-
-  .stylebutton:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
-
-  #pageacc {
-    display: block;
-  }
-
   /************************    CSS - Difficulté   ****************************/
-  #pageniveau header {
-    background-size: 1270px 460px;
-  }
-
-  #h13 {
-    font-size: 105px;
-
-    background-size: 1270px 480px;
-    padding-bottom: 120px;
-  }
-
-  #h14 {
-    font-size: 105px;
-    background-size: 1270px 480px;
-    padding-bottom: 135px;
-  }
-
-  #button2 {
-    margin-bottom: 35px;
-  }
-
-  #button3 {
-    padding-left: 25px;
-    padding-right: 23px;
-  }
-
-  #section2 {
-    padding-top: 105px;
-    padding-bottom: 75px;
-  }
 
   /************************    CSS - Question 1   ****************************/
 
-  #h1question {
-    font-size: 45px;
-    padding-top: 75px;
-    padding-bottom: 80px;
-    background-size: 1270px 600px;
-  }
-
-  #section3 {
-    position: absolute;
-    height: 482px;
-    width: 1270px;
-    padding-top: 65px;
-  }
-
-  #section4 {
-    position: absolute;
-    height: 392px;
-    width: 1270px;
-  }
-
-  #section5 {
-    position: absolute;
-    height: 377px;
-    width: 1270px;
-  }
-
-  .pDuQestion {
-    color: black;
-    margin: 0;
-  }
-
-  #buttonabadonner {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 0;
-  }
-
-  #buttonabadonner2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 0;
-  }
-
-  #buttonsuivant {
-    position: absolute;
-    bottom: 40px;
-    left: 530px;
-  }
-
-  #buttonindice {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  #buttonindice2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  .button {
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 23px;
-    display: inline-block;
-  }
-
-  .button2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 23px;
-    display: inline-block;
-  }
-
-  .rp1 {
-    display: block;
-  }
-
-  .rp2 {
-    display: block;
-  }
-
-  .rp3 {
-    display: block;
-  }
-
-  .rp4 {
-    display: block;
-  }
-
-  #buttonabadonner:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
-
   /************************    CSS - Page Résultat   ****************************/
-
-  #presultat {
-    font-size: 50px;
-    padding-top: 105px;
-  }
-
-  #ppourcentage {
-    padding-bottom: 50px;
-    font-size: 50px;
-  }
-
-  #ppourcentage2 {
-    padding-bottom: 50px;
-    font-size: 50px;
-  }
 }
