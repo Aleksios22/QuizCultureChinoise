@@ -26,13 +26,13 @@
 body {
   background-color: lightgrey;
   font-family: Roboto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .global {
   display: flex;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   margin: 0 auto;
   text-align: center;
 }
@@ -41,7 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 75vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/million-people.jpg);
   background-size: cover;
@@ -58,7 +58,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 25vh;
   background-color: white;
 }
 
@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/monk.jpg);
   background-size: cover;
@@ -114,7 +114,7 @@ body {
 }
 
 #section2 {
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -152,7 +152,7 @@ body {
 /************************    CSS - Question 1   ****************************/
 
 #headerNov {
-  height: 25vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +163,7 @@ body {
 }
 
 #headerExp {
-  height: 25vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 65vh;
+  height: 70vh;
   background-color: white;
   color: black;
   justify-content: space-between;
@@ -221,7 +221,7 @@ body {
 }
 
 #section5 {
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -354,7 +354,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/Jackie.jpg);
   background-size: cover;
