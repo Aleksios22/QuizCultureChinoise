@@ -8,3 +8,5 @@ Technologies utilisées: HTML5, CSS3, javascript, UIkit.
 
 Équipe composée de Alexis Rochon et Hao Yang Chen.
 
+URL: https://quizculturechinoise.netlify.app/
+
