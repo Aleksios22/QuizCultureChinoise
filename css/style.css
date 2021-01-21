@@ -40,16 +40,15 @@ body {
 #headerAcc {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 75vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/million-people.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #h1acc {
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-size: 100%;
   color: white;
   font-family: "Eastern";
   font-size: 2.5rem;
