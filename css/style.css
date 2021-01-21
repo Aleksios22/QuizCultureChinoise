@@ -40,7 +40,7 @@ body {
 #headerAcc {
   display: flex;
   align-items: center;
-  height: 75vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(../images/million-people.jpg);
   background-size: cover;
@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 20vh;
   background-color: white;
 }
 
@@ -67,9 +67,9 @@ body {
   font-family: Roboto;
   border: 1;
   line-height: 2.5;
-  padding: 0 5%;
+  padding: 0 4%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: rgb(0, 0, 0);
 }
 
