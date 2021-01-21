@@ -51,7 +51,7 @@ body {
 #h1acc {
   color: white;
   font-family: "Eastern";
-  font-size: 2.5rem;
+  font-size: 6rem;
 }
 
 #section1 {
@@ -65,10 +65,9 @@ body {
 .stylebutton {
   font-family: Roboto;
   border: 1;
-  line-height: 2.5;
-  padding: 0 5%;
+  padding: 5% 5%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 6rem;
   color: rgb(0, 0, 0);
 }
 
@@ -102,7 +101,7 @@ body {
 }
 
 #h12 {
-  font-size: 2.2rem;
+  font-size: 6rem;
   font-family: "fontshui";
   color: white;
   background-repeat: no-repeat;
@@ -131,8 +130,6 @@ body {
 #button2 {
   width: 90%;
   margin-top: 10%;
-  line-height: 2.5;
-  padding: 0 5%;
 }
 
 #button3 {
@@ -159,14 +156,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../images/lanternes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #h1question {
-  font-size: 2rem;
+  font-size: 5rem;
   color: white;
   font-family: "fontshui";
 }
@@ -197,11 +194,10 @@ body {
 }
 
 .options {
-  font-size: 1.3em;
+  font-size: 3.5em;
   font-family: Roboto;
   border: 1;
-  line-height: 1;
-  padding: 5%;
+  padding: 4%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -222,7 +218,8 @@ body {
 
 .pDuQestion {
   color: black;
-  font-size: 1.2rem;
+  font-size: 3.5rem;
+  margin: 5% 0% 5% 0%;
 }
 
 #buttonabadonner {
@@ -292,26 +289,26 @@ body {
 
 .rp1 {
   color: black;
-  font-size: 2em;
-  padding: 4% 0% 4% 0%;
+  font-size: 3.5em;
+  padding: 5% 0% 5% 0%;
 }
 
 .rp2 {
   color: black;
-  font-size: 2em;
-  padding: 4% 0% 4% 0%;
+  font-size: 3.5em;
+  padding: 5% 0% 5% 0%;
 }
 
 .rp3 {
   color: black;
-  font-size: 2em;
-  padding: 4% 0% 4% 0%;
+  font-size: 3.5em;
+  padding: 5% 0% 5% 0%;
 }
 
 .rp4 {
   color: black;
-  font-size: 2em;
-  padding: 4% 0% 4% 0%;
+  font-size: 3.5em;
+  padding: 5% 0% 5% 0%;
 }
 .active,
 .button:hover {
