@@ -18,6 +18,10 @@
   padding: 0;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 /************************    CSS - Page D'acceuil   ****************************/
 
 /*-------------------------------------------------------------------------------------------- Mobile First --------*/
@@ -27,6 +31,8 @@ body {
   background-color: white;
   font-family: Roboto;
   overflow: hidden;
+  position: relative
+  overflow-x: hidden;
 }
 
 .global {
