@@ -152,7 +152,7 @@ body {
 /************************    CSS - Question 1   ****************************/
 
 #headerNov {
-  height: 30vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +163,7 @@ body {
 }
 
 #headerExp {
-  height: 30vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 70vh;
+  height: 75vh;
   background-color: white;
   color: black;
   justify-content: space-between;
@@ -261,6 +261,7 @@ body {
 #buttonsuivant {
 }
 
+#buttonindice2,
 #buttonindice {
   top: 0;
   right: 0;
@@ -268,11 +269,9 @@ body {
   color: black;
 }
 
-#buttonindice2 {
-  top: 0;
-  right: 0;
-  background-color: yellow;
-  color: black;
+#buttonindice:hover,
+#buttonindice2:hover {
+  background-color: rgb(158, 158, 0);
 }
 
 .button {
@@ -335,8 +334,9 @@ body {
   background-color: #585858;
 }
 
-#buttonabadonner:hover {
-  background-color: #fff01e;
+#buttonabadonner:hover,
+#buttonabadonner2:hover {
+  background-color: rgb(161, 0, 0);
 }
 
 #buttonabadonner:active {
@@ -383,12 +383,36 @@ body {
   display: none;
 }
 
-/*---------------------------------------------------------------------------------------------------------- Tablette --------*/
+/*---------------------------------------------------------------------------------------------------------- Tablette/Bureau --------*/
 /*----------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 1000px) {
+  body {
+    overflow: hidden;
+  }
+  .global {
+    width: 80%;
+  }
+
+  .stylebutton {
+    font-size: 4em;
+    padding: 3% 2% 3% 2%;
+    cursor: pointer;
+  }
   button {
     padding: 0% 0% 0% 0%;
     font-size: 0.5em;
+    cursor: pointer;
+  }
+
+  #button2,
+  #button3 {
+    padding: 0;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  #section3 {
+    width: 100%;
   }
 
   .rp1 {
@@ -411,19 +435,27 @@ body {
     padding: 2% 0% 2% 0%;
   }
 
+  #buttonabadonner:hover {
+    background-color: rgb(184, 0, 0) d;
+  }
+
+  .troisOptions {
+    align-content: center;
+  }
+
   .pDuQestion {
-    color: black;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 2.3em;
+    padding: 4% 0% 2% 0%;
   }
 
   .options {
     font-size: 2.5em;
     font-family: Roboto;
     border: 1;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
     color: rgb(0, 0, 0);
+    cursor: pointer;
   }
 
   #button2,
@@ -431,15 +463,4 @@ body {
     font-size: 4.5em;
     padding: 3%;
   }
-}
-
-/*------------------------------------------------------------------------------------------------------------- Bureau --------*/
-/*-----------------------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 1008px) {
-  /************************    CSS - Difficulté   ****************************/
-
-  /************************    CSS - Question 1   ****************************/
-
-  /************************    CSS - Page Résultat   ****************************/
 }
